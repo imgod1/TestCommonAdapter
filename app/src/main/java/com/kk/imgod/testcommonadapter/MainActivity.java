@@ -84,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
 
     private int position = 20;
 
+    /**
+     * 加载更多
+     */
     private void loadMore() {
         int end = position + 20;
         for (; position < end; position++) {
